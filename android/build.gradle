@@ -25,7 +25,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    if (project.android.hasProperty("namespace")) {
+    if (project.hasProperty("namespace")) {
         namespace 'com.yoonjaepark.flutter_naver_login'
     }
 
